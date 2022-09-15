@@ -18,7 +18,7 @@ client.on('qr', qr => {
 client.on('ready', () => {
     console.log('Client is ready!');
     client.getChats().then(chats => {
-        const myGroup = chats.find((chat) => chat.name === "𝐆𝐫𝐮𝐩𝐨");
+        const myGroup = chats.find((chat) => chat.name === "ignorar");
         
 
         console.log(myGroup); //datos del grupo donde manda mensaje de inicio 
